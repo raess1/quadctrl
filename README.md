@@ -23,3 +23,10 @@ include_directories("/home/k3lso/catkin_ws/src/third-party/eigen3")
 comment out #import pyquaternion in walking_simulation.py
 ```
 
+
+## Add Custom URDF
+Add path to custom urdf on line 297 in walking_simulation.py
+   ``` 
+    boxId = p.loadURDF("/home/k3lso/catkin_ws/src/third-party/k3lso_v3", robot_start_pos,
+                       useFixedBase=False)
+                       ```
