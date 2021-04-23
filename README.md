@@ -11,8 +11,9 @@ cd ..
 catkin_make
 ```
 
+
 ```
-Looking for eigen  (quick fix) add this to line 126
+If build fails bevause of eigen (quick fix) add this to line 126
 
 include_directories("/home/k3lso/catkin_ws/src/third-party/eigen3")
 ## Declare a C++ library
