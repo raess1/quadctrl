@@ -39,5 +39,5 @@ Add path to custom urdf on line 297 in walking_simulation.py
                        
                        ConvexMPCLocomotion.h
                          float _body_height = 0.40;
-                         float _body_height_running = 0.40s around 7075 is   
+                         float _body_height_running = 0.40
                          float _body_height = 0.40;
