@@ -53,3 +53,7 @@ Add path to custom urdf on line 297 in walking_simulation.py
   T min_hip_angle = -1.8;  //-1.22173;    //-70 degree
   T max_knee_angle = 2.79253;    //160 degree
   T min_knee_angle = -0.174533;   //-10 degree
+  
+  
+      ConvexMPCLocomotion.cpp
+      float side_sign[4] = {-1, 1, -1, 1};
