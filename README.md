@@ -41,3 +41,6 @@ Add path to custom urdf on line 297 in walking_simulation.py
                          float _body_height = 0.40;
                          float _body_height_running = 0.40
                          float _body_height = 0.40;
+
+   LegController.h
+  float stand_target
