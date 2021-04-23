@@ -61,4 +61,12 @@ Add path to custom urdf on line 297 in walking_simulation.py
   ```
       ConvexMPCLocomotion.cpp
       float side_sign[4] = {-1, 1, -1, 1};
+            
+```
+
+  ```
+      LegController.h
+        float stand_target[12] = {0., 1.39, 2.12, 0., 1.39, 2.12, -0., -1.39, -2.12, -0., -1.39, -2.12};
+        float init_pos[12] = {-0., 1.39, 2.12, 0., 1.39, 2.12, -0., -1.39, -2.12, -0., -1.39, -2.12};
+      
 ```
