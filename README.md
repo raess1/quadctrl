@@ -19,3 +19,7 @@ include_directories("/home/k3lso/catkin_ws/src/third-party/eigen3")
 ## Declare a C++ library
 ```
 
+```
+comment out #import pyquaternion in walking_simulation.py
+```
+
